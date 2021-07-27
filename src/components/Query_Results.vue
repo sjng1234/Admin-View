@@ -1,4 +1,9 @@
 <template>
+	<div class="commentDiv">
+		<h2> Currently filter implemented by matching entire option to filter:</h2>
+		<h3> Example of a valid search term: </h3>
+		<p> '9-Lazada-1st September-8:00PM - 9:00PM' </p>
+	</div>
 	<div class="tableContainer">
 		<label for="Filter">Filter Sessions: </label>
 		<input type="text" id="Filter" v-model="searchTerm" />
@@ -155,5 +160,9 @@ export default {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.commentDiv{
+	flex-direction: row;
+	justify-content: center;
 }
 </style>

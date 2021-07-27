@@ -21,6 +21,11 @@ npm run serve
 npm run build
 ```
 
+### Previewing production build (dist) locally
+```
+serve -s dist
+```
+
 ### Lints and fixes files
 ```
 npm run lint
