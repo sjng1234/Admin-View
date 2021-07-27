@@ -1,5 +1,11 @@
 # admin-view
 
+## For Testing 
+```
+Userid: Test@gmail.com
+Password: test1234
+```
+
 ## Project setup
 ```
 npm install
