@@ -2,7 +2,7 @@
 
 ## For Testing 
 ```
-Userid: Test@gmail.com
+Email: test@gmail.com
 Password: test1234
 ```
 
