@@ -1,7 +1,9 @@
 <template>
   <div class="home" v-show="name !== ''">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <LoadTable />
+    <div style="align-items: center; justify-content:center">
+      <LoadTable />
+    </div>
     <button @click="logOut()">Logout</button>
   </div>
   <!-- This component will only be showed if user is not logged in -->
